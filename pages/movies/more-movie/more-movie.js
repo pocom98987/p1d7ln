@@ -39,7 +39,7 @@ Page({
     util.http(nextUrl, this.processDoubanData)
     wx.showNavigationBarLoading()
   },
-
+ 
   onPullDownRefresh: function (event) {
     var refreshUrl = this.data.requestUrl +
       "?star=0&count=20";
